@@ -36,7 +36,7 @@ public class RegisterActivity extends Activity{
 	private LoadingDialog loadingDialog;
 	public static int from  = 0;
 	Pattern pattern = Pattern
-			.compile("^((13[0-9])|(15[^4,\\D])|(18[0,3-9]))\\d{8}$");
+			.compile("^((13[0-9])|(15[^4,\\D])|(18[0-9]))\\d{8}$");
 	
 	public UserManageService service;
 	private OnQueryCompleteListener onQueryCompleteListener;
