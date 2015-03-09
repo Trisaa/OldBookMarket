@@ -228,6 +228,7 @@ public class BookFragment extends Fragment implements
 				}
 				}
 				else {
+					loadingDialog.dismiss();
 					Toast.makeText(getActivity(), "ÍøÂçÁ¬½Ó³¬Ê±", 2000).show();
 				}
 			}
